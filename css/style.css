@@ -42,3 +42,8 @@ html, body{
    min-height: 1px;
    margin:0 2% 20px;
  }
+
+/* animate.css*/
+h1 .animated.fadeIn{
+  animation-duration: 5s;
+}
