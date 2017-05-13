@@ -1,0 +1,71 @@
+  /* mobile */
+@media (max-width: 767px) {
+  header .hero h1 {
+  margin-top: 0px;
+  font-size: 2.125em;
+  }
+  header .hero p {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 1.125em;
+  }
+
+  header .hero img {
+    margin-top: 2em;
+  }
+
+  header nav div.one-half {
+    width: 45%;
+  }
+  header img {
+    width: 35%;
+  }
+
+  header ul a {
+    font-size: 0.775em;
+  }
+  header nav ul>li.btn-outline {
+      padding: 6px 10px;
+      border: 1.5px solid #FFFFFF;
+      border-radius: 4px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  header .btn {
+    font-size: 0.675em;
+    font-weight: 500;
+    padding: 8px 24px;
+    border: 1.5px;
+    box-shadow: 0px 1px 0px 0px;
+  }
+}
+
+/*tablet*/
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+    padding-right: 0px;
+  }
+  .one-half {
+    width: 45%;
+  }
+/*desktop*/
+  @media (min-width: 992px) {
+  .container {
+      width: 970px;
+    }
+  .one-half {
+      width: 44%;
+    }
+  .one-third {
+      width: 29.33333%;
+    }
+  .one-fourth {
+      width: 21%;
+    }
+  }
+  @media (min-width: 1200px) {
+  .container {
+      width: 1170px;
+    }
+  }
