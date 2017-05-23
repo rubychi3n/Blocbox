@@ -66,7 +66,8 @@ header nav ul {
 header nav ul > li {
   list-style-type: none;
   display: inline-block;
-  margin:0 15px;
+  margin:0 0 0 15px;
+  /*bloc's original maring 0 15px*/
 }
 header nav ul > li.btn-outline {
   padding:10px 15px;
@@ -148,7 +149,7 @@ header .hero img {
 
 /* PRICING */
 .pricing {
-  background: #34495E url("../images/background.png") top center no-repeat;
+  /*background: #34495E url("../images/background.png") top center no-repeat;*/
   background: url("../images/background.png") top center no-repeat, linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
   background-size:cover;
   text-align: center;
