@@ -527,3 +527,7 @@ footer .logo {
   line-height: 18px;
   margin:5px 0 0;
 }
+
+.active {
+  background-color: #B1B4BB; 
+}
