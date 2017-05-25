@@ -41,10 +41,30 @@
       width: 250px;
       height: 145px;
     }
+    p {
+      font-size: 0.875em;
+    }
+    h2 {
+      font-size: 1.5em;
+    }
+    .benefits, .pricing, .testimonials, .benefits ul {
+      padding: 2em 0;
+    }
+    .benefits i {
+      font-size: 3.5em;
+    }
+    .benefits p {
+      margin-left: 7.75em;
+      margin-right: 7.75em;
+    }
+    .pricing div>p {
+      margin-left: 9em;
+      margin-right: 9em;
+    }
   }
   /*tablet-1*/
 
-  @media (min-width: 668px) and (max-width: 767px){
+  @media (min-width: 668px) and (max-width: 767px) {
     header .hero h1 {
       margin-top: 0px;
       font-size: 2.125em;
@@ -84,15 +104,79 @@
       width: 300px;
       height: 175px;
     }
+    p {
+      font-size: 1em;
+    }
+    .benefits, .pricing, .testimonials, .benefits ul {
+      padding: 2em 0;
+    }
+    .benefits p {
+      margin-left: 9em;
+      margin-right: 9em;
+    }
+    .pricing li.one-third {
+      width: 60%;
+      margin: 0 auto;
+    }
+    .box.middle {
+      margin: 25px auto;
+    }
   }
   /*tablet-2*/
 
-  @media (min-width: 768px) {
+  @media (min-width: 768px) and (max-width: 991px) {
     .container {
       width: 750px;
     }
     .one-half {
       width: 45%;
+    }
+    .benefits, .pricing, .testimonials, .benefits ul {
+      padding: 2em 0;
+    }
+    .benefits p {
+      margin-left: 10em;
+      margin-right: 10em;
+    }
+    .pricing div>p {
+      margin-left: 11em;
+      margin-right: 11em;
+    }
+    .pricing li.one-third {
+      width: 29.3333%;
+    }
+    .box ul li {
+      font-size: 16px;
+    }
+    .box {
+      min-height: 390px;
+    }
+    .box.middle {
+      min-height: 430px;
+    }
+    .btn {
+      padding: 10px 15px;
+    }
+    footer {
+      background-image: none;
+      height: 100px;
+    }
+    footer p, footer nav ul {
+      -webkit-padding-start: 0px;
+      text-align: left;
+    }
+    footer .left-footer-block.one-third, footer .link-block.middle-footer-block.one-third {
+      width: 45%;
+      clear: both;
+    }
+    footer .right-footer-block.one-third {
+      width: 45%;
+      clear: right;
+    }
+    footer .logo {
+      position: absolute;
+      right: 0px;
+      bottom: -58px;
     }
   }
   /*desktop-1*/
@@ -125,6 +209,15 @@
     footer .logo {
       padding: 2em 0 2em 1.5em;
     }
+    .left-footer-block.one-thrid {
+      width: 26.33333%;
+    }
+    .link-block.middle-footer-block.one-third {
+      width: 35.33333%;
+    }
+    .right-footer-block.one-third {
+      width: 23.3333%;
+    }
   }
   /*desktop-2*/
 
@@ -133,51 +226,53 @@
       width: 1170px;
     }
   }
-
   /* Larger Mobile Devices -2 columns*/
-   @media (min-width:460px) {
-     .content {
-       padding:1.5em 1%;
-       float:right;
-       width:90%;
-       position: relative;
-     }
-     .content-item {
-       width:46%;
-       margin:0 2% 25px;
-       float:left;
-       display:block;
-     }
-   }
+
+  @media (min-width:460px) {
+    .content {
+      padding: 1.5em 1%;
+      float: right;
+      width: 90%;
+      position: relative;
+    }
+    .content-item {
+      width: 46%;
+      margin: 0 2% 25px;
+      float: left;
+      display: block;
+    }
+  }
   /* Tablets - 3 columns */
-   @media (min-width:768px) {
-     .content {
-       padding:1.5em 5%;
-       float:right;
-       width:90%;
-       position: relative;
-     }
-     .content > .container {
-       width:700px;
-     }
-     .content-item {
-       width:31.33333%;
-       margin:0 1% 25px;
-     }
-   }
+
+  @media (min-width:768px) {
+    .content {
+      padding: 1.5em 5%;
+      float: right;
+      width: 90%;
+      position: relative;
+    }
+    .content>.container {
+      width: 700px;
+    }
+    .content-item {
+      width: 31.33333%;
+      margin: 0 1% 25px;
+    }
+  }
   /* Laptops and Desktops -4 columns */
-   @media (min-width:992px) {
-     .content {
-       padding:1.5em 1%;
-       float:right;
-       width:83.33333333%;
-       position: relative;
-     }
-     .content > .container {
-       width:auto;
-     }
-     .content-item {
-       width:23%;
-       margin:0 1% 25px;
-     }
-   }
+
+  @media (min-width:992px) {
+    .content {
+      padding: 1.5em 1%;
+      float: right;
+      width: 83.33333333%;
+      position: relative;
+    }
+    .content>.container {
+      width: auto;
+    }
+    .content-item {
+      width: 23%;
+      margin: 0 1% 25px;
+    }
+  }
