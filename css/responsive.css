@@ -16,7 +16,7 @@
     header nav div.one-half {
       width: 45%;
     }
-    header img {
+    header img, footer .logo {
       width: 85px;
     }
     header ul a {
@@ -47,6 +47,9 @@
     h2 {
       font-size: 1.5em;
     }
+    h4 {
+      font-size: 2.25em;
+    }
     .benefits, .pricing, .testimonials, .benefits ul {
       padding: 2em 0;
     }
@@ -57,9 +60,58 @@
       margin-left: 7.75em;
       margin-right: 7.75em;
     }
+    .pricing li.one-third {
+      width: 55%;
+      margin: 0 auto;
+      float: inherit;
+    }
     .pricing div>p {
-      margin-left: 9em;
-      margin-right: 9em;
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+    .box ul li {
+      font-size: 1em;
+    }
+    .box {
+      min-height: 400px;
+    }
+    .box.middle {
+      margin-top: 25px;
+      min-height: 400px;
+    }
+    .btn {
+      font-weight: 500;
+      font-size: 0.85em;
+    }
+    .testimonials blockquote {
+      font-size: 0.85em;
+    }
+    footer {
+      background-image: none;
+      height: 80px;
+    }
+    footer p, footer nav ul {
+      -webkit-padding-start: 0px;
+      text-align: left;
+      font-size: 0.75em;
+    }
+    footer nav ul li a {
+      font-size: 0.825em;
+    }
+    footer .left-footer-block.one-third {
+      clear: both;
+    }
+    footer .link-block.middle-footer-block.one-third {
+      width: 62%;
+    }
+    footer .right-footer-block.one-third {
+      width: 28%;
+      clear: right;
+    }
+    footer .logo {
+      position: absolute;
+      right: 0px;
+      bottom: -43px;
     }
   }
   /*tablet-1*/
@@ -80,7 +132,7 @@
     header nav div.one-half {
       width: 45%;
     }
-    header img {
+    header img, footer .logo {
       width: 85px;
     }
     header ul a {
@@ -107,6 +159,9 @@
     p {
       font-size: 1em;
     }
+    h2 {
+      font-size: 1.5em;
+    }
     .benefits, .pricing, .testimonials, .benefits ul {
       padding: 2em 0;
     }
@@ -117,9 +172,51 @@
     .pricing li.one-third {
       width: 60%;
       margin: 0 auto;
+      float: inherit;
+    }
+    .pricing div>p {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+    .box ul li {
+      font-size: 1em;
+    }
+    .box {
+      min-height: 400px;
     }
     .box.middle {
-      margin: 25px auto;
+      margin-top: 25px;
+      min-height: 400px;
+    }
+    .btn {
+      font-weight: 500;
+      font-size: 0.85em;
+    }
+    .testimonials blockquote {
+      font-size: 0.85em;
+    }
+    footer {
+      background-image: none;
+      height: 90px;
+    }
+    footer p, footer nav ul {
+      -webkit-padding-start: 0px;
+      text-align: left;
+    }
+    footer .left-footer-block.one-third {
+      clear: both;
+    }
+    footer .link-block.middle-footer-block.one-third {
+      width: 50%;
+    }
+    footer .right-footer-block.one-third {
+      width: 40%;
+      clear: right;
+    }
+    footer .logo {
+      position: absolute;
+      right: 0px;
+      bottom: -52px;
     }
   }
   /*tablet-2*/
@@ -156,6 +253,8 @@
     }
     .btn {
       padding: 10px 15px;
+      font-weight: 500;
+      font-size: 0.85em;
     }
     footer {
       background-image: none;
