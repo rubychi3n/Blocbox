@@ -8,7 +8,7 @@
   <!-- CSS information -->
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
-  <link href="css/responsive.css" rel="stylesheet" type="text/css">
+  <link href="css/responsive_dashboard.css" rel="stylesheet" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/font-awesome.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
@@ -19,6 +19,8 @@
 </head>
 
 <body class="dashboard">
+  <!-- RESPONSIVE NAV -->
+<a class="hamburger" id="menu" href="#">&#9776;</a>
   <!-- LEFT NAV -->
   <nav id="left-nav" class="left-nav">
     <a href="#" class="site-logo"><img src="images/logo.png" /></a>
@@ -137,6 +139,12 @@
       </div>
     </section>
   </main>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/dropit.js"></script>
+  <script type="text/javascript">
+    $(".menu").dropit();
+    $( "#menu" ).click(function() {
+    $("#left-nav").toggleClass("open", 200);
+  });
 </body>
-
 </html>

@@ -277,19 +277,6 @@
       right: 0px;
       bottom: -58px;
     }
-    .content {
-      padding: 1.5em 5%;
-      float: right;
-      width: 90%;
-      position: relative;
-    }
-    .content>.container {
-      width: 700px;
-    }
-    .content-item {
-      width: 31.33333%;
-      margin: 0 1% 25px;
-    }
   }
   /*desktop-1*/
 
@@ -330,19 +317,6 @@
     .right-footer-block.one-third {
       width: 23.3333%;
     }
-    .content {
-      padding: 1.5em 1%;
-      float: right;
-      width: 83.33333333%;
-      position: relative;
-    }
-    .content>.container {
-      width: auto;
-    }
-    .content-item {
-      width: 23%;
-      margin: 0 1% 25px;
-    }
   }
   /*desktop-2*/
 
@@ -351,57 +325,3 @@
       width: 1170px;
     }
   }
-
-
-  /******* the 3 MQs from below are from checkpoint 33's material *******/
-  /* Larger Mobile Devices -2 columns*/
-
-  @media (min-width:460px) {
-    .content {
-      padding: 1.5em 1%;
-      float: right;
-      width: 90%;
-      position: relative;
-    }
-    .content-item {
-      width: 46%;
-      margin: 0 2% 25px;
-      float: left;
-      display: block;
-    }
-  }
-  /* Checkpoitnt 33: Tablets - 3 columns - consolidated with earlier MQ */
-
-  /*@media (min-width:768px) {
-    .content {
-      padding: 1.5em 5%;
-      float: right;
-      width: 90%;
-      position: relative;
-    }
-    .content>.container {
-      width: 700px;
-    }
-    .content-item {
-      width: 31.33333%;
-      margin: 0 1% 25px;
-    }
-  }*/
-
-  /* Checkpoint 33: Laptops and Desktops -4 columns - consolidated with earlier MQ*/
-
-  /*@media (min-width:992px) {
-    .content {
-      padding: 1.5em 1%;
-      float: right;
-      width: 83.33333333%;
-      position: relative;
-    }
-    .content>.container {
-      width: auto;
-    }
-    .content-item {
-      width: 23%;
-      margin: 0 1% 25px;
-    }
-  }*/
