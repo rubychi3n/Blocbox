@@ -44,7 +44,16 @@
     <div class="settings">
       <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg">
       <p>Joey Kirk</p>
-      <a href="#"><i class="fa fa-cog"></i></a>
+      <ul class="usermenu">
+        <li>
+         <a href="#"><i class="fa fa-cog"></i></a>
+          <ul>
+            <li><a href="#"><i class="fa fa-cog"></i> Account Settings</a></li>
+            <li><a href="#"><i class="fa fa-group"></i> Collaborators</a></li>
+            <li><a href="#"><i class="fa fa-sign-out"></i> Signout</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
 </nav>
 <main role="main">
@@ -129,9 +138,12 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/dropit.js"></script>
   <script type="text/javascript">
+
     $(".menu").dropit();
+    $(".usermenu").dropit();
     $( "#menu" ).click(function() {
     $("#left-nav").toggleClass("open", 200);
+
 });
   </script>
 </body>
