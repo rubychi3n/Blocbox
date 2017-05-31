@@ -17,7 +17,7 @@
   margin: 10px 0 0;
   margin-top: 0px; /*added by ruby*/
 }
-.dropit .dropit-trigger { position: relative; }
+.dropit .dropit-trigger { position: relative; } /*still have trouble understanding this part*/
 .dropit .dropit-submenu,
 .usermenu .dropit-submenu {
     position: absolute;
@@ -31,7 +31,7 @@
 	margin: 20px 0 0;
 }
 .usermenu .dropit-submenu {
-top: -200px;
+top: -160px;
 }
 .dropit .dropit-open .dropit-submenu {
   display: block;
@@ -49,11 +49,11 @@ top: -200px;
   display: block;
   width: 0;
   z-index: 1;
-  top: -8px;
+  top: -10px;
   right: 10px;
 }
 .usermenu .dropit-open .dropit-submenu:after {
-  top: 153px; /*add by ruby*/
+  top: 129px; /*add by ruby*/
   right: 8px; /*add by ruby*/
   border-width: 8px 8px 0px; /*add by ruby*/
 }
@@ -72,6 +72,6 @@ top: -200px;
 }
 
  .usermenu .dropit-open .dropit-submenu li a {
-   color:red;
-   font-size: 10px;
+   font-size: 12.5px;
+   padding-bottom: 8px;
   }
