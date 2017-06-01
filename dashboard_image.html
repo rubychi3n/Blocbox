@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1 ">
+  <meta charset="utf-8 " />
+  <!-- CSS information -->
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/responsive_dashboard.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/font-awesome.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <title>Dashboard-Images | Blocbox</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Varela+Round" rel="stylesheet">
+</head>
+
+<body class="dashboard">
+  <!-- RESPONSIVE NAV -->
+<a class="hamburger" id="menu" href="#">&#9776;</a>
+  <!-- LEFT NAV -->
+  <nav id="left-nav" class="left-nav">
+    <a href="#" class="site-logo"><img src="images/logo.png" /></a>
+    <div class="items">
+      <p>Items</p>
+      <ul>
+        <li><a href="dashboard.html"><i class="fa fa-th-large"></i> All Items</a></li>
+        <li><a href="#"><i class="fa fa-file-o"></i> Notes</a></li>
+        <li><a href="#" class="active"><i class="fa fa-picture-o"></i> Images</a></li>
+        <li><a href="#"><i class="fa fa-link"></i> Links</a></li>
+      </ul>
+      <p>Boxes</p>
+      <ul>
+        <li><a href="#"><i class="fa fa-inbox"></i> Landing Pages</a></li>
+        <li><a href="#"><i class="fa fa-inbox"></i> BB Photos</a></li>
+        <li><a href="#"><i class="fa fa-plus-square-o"></i> Add a new box</a></li>
+      </ul>
+    </div>
+    </div>
+    <div class="settings">
+      <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" />
+      <p>Joey Kirk</p>
+      <a href="#"><i class="fa fa-cog"></i></a>
+    </div>
+  </nav>
+  <main role="main">
+    <!-- CONTENT -->
+    <section class="content">
+      <div class="container">
+        <div class="header">
+          <h1>Images</h1>
+          <a href="#" class="btn">+ Add</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="content-item">
+          <div class="item-box">
+            <img src="https://static.pexels.com/photos/390262/pexels-photo-390262.jpeg" />
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="item-box">
+            <img src="https://static.pexels.com/photos/326957/pexels-photo-326957.jpeg" />
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="item-box">
+            <img src="https://static.pexels.com/photos/90832/pexels-photo-90832.jpeg" />
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="item-box">
+            <img src="https://static.pexels.com/photos/418293/pexels-photo-418293.jpeg" />
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="item-box">
+            <img src="https://static.pexels.com/photos/374827/pexels-photo-374827.jpeg" />
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="item-box">
+            <img src="https://static.pexels.com/photos/301503/pexels-photo-301503.jpeg" />
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="item-box">
+            <img src="https://static.pexels.com/photos/407571/pexels-photo-407571.jpeg" />
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="item-box">
+            <img src="https://static.pexels.com/photos/24249/pexels-photo-24249.jpg" />
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="item-box">
+            <img src="https://static.pexels.com/photos/177644/pexels-photo-177644.jpeg" />
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="item-box">
+            <img src="https://static.pexels.com/photos/47459/pexels-photo-47459.jpeg" />
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="item-box">
+            <img src="https://static.pexels.com/photos/413268/pexels-photo-413268.jpeg" />
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="item-box">
+            <img src="https://static.pexels.com/photos/271566/pexels-photo-271566.jpeg" />
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="item-box">
+            <img src="https://static.pexels.com/photos/371546/pexels-photo-371546.jpeg" />
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="item-box">
+            <img src="https://static.pexels.com/photos/37542/divers-scuba-reef-underwater-37542.jpeg" />
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="item-box">
+            <img src="https://static.pexels.com/photos/83437/candies-83437.jpeg" />
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="item-box">
+            <img src="https://static.pexels.com/photos/119670/pexels-photo-119670.jpeg" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/dropit.js"></script>
+  <script type="text/javascript">
+    $(".menu").dropit();
+    $( "#menu" ).click(function() {
+    $("#left-nav").toggleClass("open", 200);
+  });
+</body>
+</html>
